@@ -13,13 +13,13 @@ void chin::boron(){
     }
     is_boron_ = true;
     std::cout << "<<<You boroned.>>>" << std::endl;
-    std::cout << "  Your Chin info:" << std::endl;
-    std::cout << "long: " << long_ <<  "cm" << std::endl;
-    std::cout << "direction:" << std::endl;
-    std::cout << "\tvertical: " << vertical_direction_ << "°" << std::endl;
-    std::cout << "\thorizontal: " << horizontal_direction_ << "°" << std::endl;
-    std::cout << "hardness: " << hardness_ << "%" << std::endl;
-    std::cout << "thickness: " << thickness_ << "%" << std::endl;
+    std::cout << "Your Chin info:" << std::endl;
+    std::cout << "- long: " << long_ <<  "cm" << std::endl;
+    std::cout << "- direction:" << std::endl;
+    std::cout << "   - vertical: " << vertical_direction_ << "°" << std::endl;
+    std::cout << "   - horizontal: " << horizontal_direction_ << "°" << std::endl;
+    std::cout << "- hardness: " << hardness_ << "%" << std::endl;
+    std::cout << "- thickness: " << thickness_ << "%" << std::endl;
 }
 
 void chin::unboron(){
@@ -39,8 +39,8 @@ void chin::set_position(double vertical_direction, double horizontal_direction){
     vertical_direction_ = vertical_direction;
     horizontal_direction_ = horizontal_direction;
     std::cout << "<<<You set position.>>>" << std::endl;
-    std::cout << "  Your Chin info:" << std::endl;
-    std::cout << "direction:" << std::endl;
-    std::cout << "\tvertical: " << vertical_direction_ << "°" << std::endl;
-    std::cout << "\thorizontal: " << horizontal_direction_ << "°" << std::endl;
+    std::cout << "Your Chin info:" << std::endl;
+    std::cout << "- direction:" << std::endl;
+    std::cout << "   - vertical: " << vertical_direction_ << "°" << std::endl;
+    std::cout << "   - horizontal: " << horizontal_direction_ << "°" << std::endl;
 }
